@@ -1,0 +1,24 @@
+Source: kdnssd
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.10.80)
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdnssd
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdnssd
+
+Package: kde-zeroconf
+Architecture: any
+Priority: extra
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: zeroconf plugins and kio slaves for KDE
+ Zeroconf is an implementation of IPv4 link-local addresses (RFC3927)
+ which can be used for ad-hoc networks.  Addresses are allocated from
+ the 169.254.0.0/16 range semi-randomly.
+ .
+ Keywords: avahi, dnssd.
+ .
+ This package is part of the KDE networking module.
