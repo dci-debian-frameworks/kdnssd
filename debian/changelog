@@ -1,9 +1,13 @@
-kdnssd (4:4.10.80-0ubuntu2) UNRELEASED; urgency=low
+kdnssd (4:4.10.90-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Jonathan Riddell ]
   * Add dbg package
   * Tidy not-installed
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 24 Jun 2013 15:26:40 +0100
+  [ Michał Zając ]
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Thu, 27 Jun 2013 02:46:33 +0200
 
 kdnssd (4:4.10.80-0ubuntu1) saucy; urgency=low
 
