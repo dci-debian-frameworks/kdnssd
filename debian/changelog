@@ -1,4 +1,4 @@
-kdnssd (4:4.10.90-0ubuntu1) UNRELEASED; urgency=low
+kdnssd (4:4.10.90-0ubuntu1) saucy; urgency=low
 
   [ Jonathan Riddell ]
   * Add dbg package
@@ -7,7 +7,7 @@ kdnssd (4:4.10.90-0ubuntu1) UNRELEASED; urgency=low
   [ Michał Zając ]
   * New upstream bet release
 
- -- Michał Zając <quintasan@kubuntu.org>  Thu, 27 Jun 2013 02:46:33 +0200
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:12:38 +0100
 
 kdnssd (4:4.10.80-0ubuntu1) saucy; urgency=low
 
