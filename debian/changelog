@@ -1,3 +1,10 @@
+kdnssd (4.98.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+  * Renamed to kdnssd (and kdnssd renamed to zeroconf-ioslave)
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:51:30 +0000
+
 kdnssd-framework (4.97.0-0ubuntu1) trusty; urgency=medium
 
   [ Jonathan Riddell ]
