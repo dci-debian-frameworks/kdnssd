@@ -1,2 +1,2 @@
 version=3
-ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kdnssd-([\d\.]*).tar.xz
+http://download.kde.org/unstable/frameworks/([\d\.]*)/kdnssd-framework-(.*)\.tar\.xz

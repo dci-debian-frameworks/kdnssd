@@ -1,99 +1,26 @@
-kdnssd (4:4.12.90-0ubuntu1) trusty; urgency=medium
-
-  * New upstream beta release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:55:28 +0000
-
-kdnssd (4:4.12.3-0ubuntu1) trusty; urgency=medium
-
-  * New upstream bugfix release
-
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:46:40 +0100
-
-kdnssd (4:4.12.2-0ubuntu1) trusty; urgency=medium
-
-  * New upstream bugfix release
-
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Feb 2014 23:58:28 +0000
-
-kdnssd (4:4.12.1-0ubuntu1) trusty; urgency=low
-
-  * New upstream bugfix release
-
- -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:15:58 +0000
-
-kdnssd (4:4.12.0-0ubuntu1) trusty; urgency=low
-
-  * New upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:04:53 +0000
-
-kdnssd (4:4.11.97-0ubuntu1) trusty; urgency=low
-
-  * New upstream RC release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:07:08 +0000
-
-kdnssd (4:4.11.95-0ubuntu1) trusty; urgency=low
-
-  * New upstream beta release
-
- -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:03:29 +0100
-
-kdnssd (4:4.11.80-0ubuntu1) trusty; urgency=low
-
-  * New upstream beta release
-
- -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:39:39 +0100
-
-kdnssd (4:4.11.2-0ubuntu1) saucy; urgency=low
-
-  * New upstream bugfix release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:23:19 +0100
-
-kdnssd (4:4.11.1-0ubuntu1) saucy; urgency=low
-
-  * New upstream bugfix release.
-
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:21:52 +0100
-
-kdnssd (4:4.11.0-0ubuntu1) saucy; urgency=low
-
-  [ Howard Chan ]
-  * New upstream release
+kdnssd-framework (4.97.0-0ubuntu1) trusty; urgency=medium
 
   [ Jonathan Riddell ]
-  * New upstream release
+  * New upstream alpha release
+  * Rename library package for soname 5
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:14:15 +0100
+  [ Scarlett Clark ]
+  - Add libavahi-common-dev depend
 
-kdnssd (4:4.10.97-0ubuntu1) saucy; urgency=low
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:18:16 +0000
 
-  * New upstream RC 2 release
+kdnssd-framework (4.96.0-0ubuntu1) trusty; urgency=medium
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:33:02 +0100
+  [ Rohan Garg ]
+  * New upstream alpha release
 
-kdnssd (4:4.10.95-0ubuntu1) saucy; urgency=low
+  [ Scarlett Clark ]
+  * libs changed to 4.x renamed files/entries.
 
-  * New upstream RC release
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:32:16 +0100
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:32:25 +0000
+kdnssd-framework (4.95.0-0ubuntu1) trusty; urgency=low
 
-kdnssd (4:4.10.90-0ubuntu1) saucy; urgency=low
+  * Initial release
 
-  [ Jonathan Riddell ]
-  * Add dbg package
-  * Tidy not-installed
-
-  [ Michał Zając ]
-  * New upstream bet release
-
- -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:12:38 +0100
-
-kdnssd (4:4.10.80-0ubuntu1) saucy; urgency=low
-
-  * New upstream release
-  * Initial package, split from kdenetwork
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:20:20 +0100
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 12 Jan 2014 11:35:49 +0000

@@ -1,38 +1,44 @@
-Source: kdnssd
-Section: kde
+Source: kdnssd-framework
+Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
- cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.12.90)
-Standards-Version: 3.9.4
-Homepage: http://www.kde.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdnssd
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdnssd
+XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules (>= 0.0.11), qtbase5-dev, libkf5config-dev (>= 4.97.0),
+ libavahi-common-dev
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kdnssd
 
-Package: kde-zeroconf
+Package: libkf5dnssd-dev
+Section: libdevel
 Architecture: any
-Priority: extra
+Depends: libkf5dnssd5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kdnssd
+ KDNSSD is a library for handling the DNS-based 
+ Service Discovery Protocol (DNS-SD), the layer of 
+ Zeroconf that allows network services.
+ .
+ Contains development files for kdnssd.
+ 
+Package: libkf5dnssd5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: zeroconf plugins and kio slaves for KDE
- Zeroconf is an implementation of IPv4 link-local addresses (RFC3927)
- which can be used for ad-hoc networks.  Addresses are allocated from
- the 169.254.0.0/16 range semi-randomly.
- .
- Keywords: avahi, dnssd.
- .
- This package is part of the KDE networking module.
+Description: Abstraction to system DNSSD features.
+ KDNSSD is a library for handling the DNS-based 
+ Service Discovery Protocol (DNS-SD), the layer of 
+ Zeroconf that allows network services
 
-Package: kde-zeroconf-dbg
+Package: libkf5dnssd5-dbg
+Priority: extra
 Section: debug
 Architecture: any
-Priority: extra
-Depends: ${misc:Depends}, kde-runtime-dbg, kde-zeroconf (= ${binary:Version})
-Breaks: kdenetwork-dbg
-Replaces: kdenetwork-dbg
-Description: debug symbols for kde-zeroconf
- Zeroconf is an implementation of IPv4 link-local addresses (RFC3927)
- which can be used for ad-hoc networks.  Addresses are allocated from
- the 169.254.0.0/16 range semi-randomly.
+Multi-Arch: same
+Depends: libkf5dnssd5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for kdnssd
+ KDNSSD is a library for handling the DNS-based
+ Service Discovery Protocol (DNS-SD), the layer of 
+ Zeroconf that allows network services.
  .
- This package contains the debug symbols for kde-zeroconf.
+ Contains debug symbols for kdnssd.
