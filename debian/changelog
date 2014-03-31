@@ -1,4 +1,11 @@
-kdnssd-framework (4.97.0-0ubuntu1~ubuntu14.04~ppa5) trusty; urgency=medium
+kdnssd-kf5 (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Upstream renamed to kdnssd but that package has a higher version
+    with epoch in Ubuntu archive so rename to kdnssd-kf5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Mar 2014 15:38:14 +0100
+
+kdnssd-framework (4.97.0-0ubuntu1) trusty; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream alpha release

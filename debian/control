@@ -1,4 +1,4 @@
-Source: kdnssd-framework
+Source: kdnssd-kf5
 Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
