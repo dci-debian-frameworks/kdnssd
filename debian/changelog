@@ -1,18 +1,11 @@
-kdnssd (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream beta release
-  * Renamed to kdnssd (and kdnssd renamed to zeroconf-ioslave)
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:51:30 +0000
-
-kdnssd-framework (4.97.0-0ubuntu1) trusty; urgency=medium
+kdnssd-framework (4.97.0-0ubuntu1~ubuntu14.04~ppa5) trusty; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream alpha release
   * Rename library package for soname 5
 
   [ Scarlett Clark ]
-  - Add libavahi-common-dev depend
+  - Add libavahi-common-dev depend 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:18:16 +0000
 
@@ -22,7 +15,7 @@ kdnssd-framework (4.96.0-0ubuntu1) trusty; urgency=medium
   * New upstream alpha release
 
   [ Scarlett Clark ]
-  * libs changed to 4.x renamed files/entries.
+  * libs changed to 4.x renamed files/entries. 
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:32:16 +0100
 
