@@ -5,7 +5,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  extra-cmake-modules (>= 0.0.13), qtbase5-dev, libkf5config-dev (>= 4.97.0),
- libavahi-common-dev
+ libavahi-common-dev, qttools5-dev, qttools5-dev-tools, qt5-default
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdnssd
 
@@ -24,11 +24,24 @@ Package: libkf5dnssd5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ libkf5dnssd5-data (= ${binary:Version})
 Description: Abstraction to system DNSSD features.
  KDNSSD is a library for handling the DNS-based 
  Service Discovery Protocol (DNS-SD), the layer of 
  Zeroconf that allows network services
+
+Package: libkf5dnssd5-data
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Abstraction to system DNSSD features.
+ KDNSSD is a library for handling the DNS-based 
+ Service Discovery Protocol (DNS-SD), the layer of 
+ Zeroconf that allows network services.
+ .
+ This package contains the translations.
 
 Package: libkf5dnssd5-dbg
 Priority: extra
