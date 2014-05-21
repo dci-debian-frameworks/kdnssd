@@ -19,7 +19,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kdnssd
 Package: libkf5dnssd5
 Section: libdevel
 Architecture: any
-Depends: libkf5dnssd5-data (= ${binary:Version}),
+Depends: libkf5dnssd5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Abstraction to system DNSSD features.
@@ -30,8 +30,8 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5dnssd5-data
-Architecture: any
-Multi-Arch: same
+Architecture: all
+Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Abstraction to system DNSSD features.
