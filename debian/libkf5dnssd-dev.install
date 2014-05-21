@@ -1,4 +1,4 @@
 usr/include/KF5/
-usr/lib/*/libKF5DNSSD.so
 usr/lib/*/cmake/KF5DNSSD/
+usr/lib/*/libKF5DNSSD.so
 usr/share/qt5/mkspecs/modules/qt_KDNSSD.pri
