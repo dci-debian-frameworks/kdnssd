@@ -1,6 +1,7 @@
 kdnssd-kf5 (4.99.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Re-add missing -dev package after a faulty wrap-and-sort. 
+  * Install *.pri files in arch dependent path.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 31 May 2014 03:14:40 +0200
 
