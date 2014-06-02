@@ -16,6 +16,17 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdnssd
 
+Package: libkf5dnssd-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5dnssd5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kdnssd
+ KDNSSD is a library for handling the DNS-based
+ Service Discovery Protocol (DNS-SD), the layer of
+ Zeroconf that allows network services.
+ .
+ Contains development files for kdnssd.
+
 Package: libkf5dnssd5
 Section: libdevel
 Architecture: any

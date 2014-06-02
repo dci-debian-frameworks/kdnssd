@@ -1,5 +1,10 @@
 kdnssd-kf5 (4.99.0-0ubuntu1) trusty; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
+  * Re-add missing -dev package after a faulty wrap-and-sort.
+  * Install *.pri files in arch dependent path.
+
+  [ Jonathan Riddell ]
   * Beta 2 release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 13:46:00 +0100
