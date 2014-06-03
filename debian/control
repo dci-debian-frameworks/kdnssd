@@ -9,7 +9,8 @@ Build-Depends: cmake,
                libavahi-common-dev,
                libkf5config-dev (>= 4.100.0),
                pkg-kde-tools,
-               qtbase5-dev
+               qtbase5-dev,
+               qttools5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdnssd
 
