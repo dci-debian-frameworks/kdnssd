@@ -7,8 +7,8 @@ kdnssd-kf5 (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump depends versions
 
   [ Harald Sitter ]
-  * Build depend on qttools5-dev
-  * Build depend on qttools5-dev-tools to get lconvert
+  * Build depend on qt5-default, qttools5-dev, qttools5-dev-tools to get 
+    lconvert for localization building.
 
  -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 03 Jun 2014 04:18:08 +0200
 
