@@ -37,8 +37,18 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Abstraction to system DNSSD features.
  KDNSSD is a library for handling the DNS-based
  Service Discovery Protocol (DNS-SD), the layer of
- Zeroconf that allows network services
+ Zeroconf that allows network services.
 
+Package: libkf5dnssd-data
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: foreign
+Description: Abstraction to system DNSSD features.
+ KDNSSD is a library for handling the DNS-based
+ Service Discovery Protocol (DNS-SD), the layer of
+ Zeroconf that allows network services.
+ .
+ This package contains the data files.
 
 Package: libkf5dnssd5-dbg
 Priority: extra
