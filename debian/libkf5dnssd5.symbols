@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5DNSSD.so.5 libkf5dnssd5 #MINVER#
  _ZN6KDNSSD11DomainModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6KDNSSD11DomainModel11qt_metacastEPKc@Base 4.96.0
@@ -130,7 +130,6 @@ libKF5DNSSD.so.5 libkf5dnssd5 #MINVER#
  _ZNK6KDNSSD14ServiceBrowser8servicesEv@Base 4.96.0
  _ZNK6KDNSSD18ServiceTypeBrowser10metaObjectEv@Base 4.96.0
  _ZNK6KDNSSD18ServiceTypeBrowser12serviceTypesEv@Base 4.96.0
- _ZNK6KDNSSD18ServiceTypeBrowser9isRunningEv@Base 4.96.0
  _ZTI11QSharedData@Base 4.96.0
  _ZTIN6KDNSSD11DomainModelE@Base 4.96.0
  _ZTIN6KDNSSD11ServiceBaseE@Base 4.96.0
