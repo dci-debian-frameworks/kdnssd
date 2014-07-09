@@ -1,5 +1,6 @@
-kdnssd-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+kdnssd-kf5 (5.0.0-0ubuntu1) utopic; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial stable upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:34:23 +0200
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 09 Jul 2014 17:40:10 +0200
