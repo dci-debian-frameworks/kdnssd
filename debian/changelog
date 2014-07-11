@@ -2,5 +2,8 @@ kdnssd-kf5 (5.0.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial stable upstream release
+  * Change copyright to match upstream
+  * Remove -data package 
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 09 Jul 2014 17:40:10 +0200
+
