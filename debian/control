@@ -15,8 +15,8 @@ Build-Depends: cmake,
                qt5-default
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdnssd
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdnssd
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdnssd
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdnssd.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdnssd.git
 
 Package: libkf5dnssd-dev
 Section: libdevel
