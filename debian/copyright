@@ -1,13 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kdnssd-framework
-Source: https://projects.kde.org/projects/frameworks/kdnssd-framework
+Upstream-Name: kdnssd
+Source: https://projects.kde.org/projects/frameworks/kdnssd
 
 Files: *
        debian/*
-Copyright: © 2004-2005, 2007-2008 Jakub Stachowski <qbast@go2.pl>
-           © 2006 Trolltech ASA. All Rights Reserved.
-           © 2006 Laurent Montel <montel@kde.org>
-             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Copyright: 2004-2008, Jakub Stachowski <qbast@go2.pl>
+           2006, Trolltech ASA. All Rights Reserved.
+           2006, Laurent Montel <montel@kde.org>
+           2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -28,9 +28,9 @@ License: LGPL-2+
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: cmake/*
-Copyright: 2007 Jakub Stachowski, <qbast@go2.pl>
-           2006 Laurent Montel, <montel@kde.org>
-License: BSD
+Copyright: 2007, Jakub Stachowski <qbast@go2.pl>
+           2006, Laurent Montel <montel@kde.org>
+License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
