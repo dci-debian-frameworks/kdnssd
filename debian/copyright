@@ -60,6 +60,8 @@ License: LGPL-2.1+3+KDEeV
  found in `/usr/share/common-licenses/LGPL-3'.
 
 Files: po/bg/kdnssd5_qt.po
+Copyright: 2009-2013, Yasen Pramatarov <yasen@lindeas.com>
+           2006-2009, Zlatko Popov <zlatkopopov@fsa-bg.org>
 License: GPL
  This file is licensed under the GPL.
  .
