@@ -14,7 +14,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kdnssd
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdnssd.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kdnssd.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdnssd.git
 
 Package: libkf5dnssd-dev
