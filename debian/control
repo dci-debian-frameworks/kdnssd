@@ -20,7 +20,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdnssd.git
 Package: libkf5dnssd-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5dnssd5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5dnssd5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0),
+         ${misc:Depends}
 Description: development files for kdnssd
  KDNSSD is a library for handling the DNS-based
  Service Discovery Protocol (DNS-SD), the layer of
