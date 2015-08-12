@@ -1,9 +1,9 @@
-kdnssd-kf5 (5.13.0-1~) UNRELEASED; urgency=medium
+kdnssd-kf5 (5.13.0-1) unstable; urgency=medium
 
   * Drop XS-Testsuite field
   * New upstream release (5.13.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Aug 2015 15:10:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Aug 2015 15:26:31 +0200
 
 kdnssd-kf5 (5.12.0-1) unstable; urgency=medium
 
