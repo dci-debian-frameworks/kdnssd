@@ -1,3 +1,14 @@
+kdnssd-kf5 (5.20.0-1~1.gbp56b3a0) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @56b3a05e68be09ab56b21845b74ec375b121241b **
+
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 24 Mar 2016 00:02:55 +0100
+
 kdnssd-kf5 (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
