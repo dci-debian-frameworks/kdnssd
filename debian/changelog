@@ -1,6 +1,6 @@
-kdnssd-kf5 (5.20.0-1~6.gbpd19bc3) UNRELEASED; urgency=medium
+kdnssd-kf5 (5.20.0-1~7.gbp76252a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d19bc3969e29108f36967b5bb23c72b004d0564f **
+  ** SNAPSHOT build @76252ac81b3d4dd231dedee051127b4ce3f1e1ba **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -11,8 +11,9 @@ kdnssd-kf5 (5.20.0-1~6.gbpd19bc3) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 23:21:08 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 11:07:30 +0200
 
 kdnssd-kf5 (5.19.0-1) experimental; urgency=medium
 
