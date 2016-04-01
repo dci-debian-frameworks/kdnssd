@@ -1,6 +1,6 @@
-kdnssd-kf5 (5.20.0-1~7.gbp76252a) UNRELEASED; urgency=medium
+kdnssd-kf5 (5.20.0-1~8.gbp5b88ef) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @76252ac81b3d4dd231dedee051127b4ce3f1e1ba **
+  ** SNAPSHOT build @5b88ef8702ac9b7dd3d34d82f87b0a6f623e999a **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -12,8 +12,9 @@ kdnssd-kf5 (5.20.0-1~7.gbp76252a) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * Update acc test script
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 11:07:30 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:07:18 +0200
 
 kdnssd-kf5 (5.19.0-1) experimental; urgency=medium
 
