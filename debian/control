@@ -5,10 +5,10 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.20.0~),
+               extra-cmake-modules (>= 5.21.0~),
                libavahi-common-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4),
+               qtbase5-dev (>= 5.4.0~),
                qttools5-dev (>= 5.4),
                qttools5-dev-tools (>= 5.4)
 Standards-Version: 3.9.6
@@ -20,7 +20,7 @@ Package: libkf5dnssd-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5dnssd5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.4),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends}
 Description: development files for kdnssd
  KDNSSD is a library for handling the DNS-based
