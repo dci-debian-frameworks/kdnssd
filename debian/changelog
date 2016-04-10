@@ -1,5 +1,8 @@
-kdnssd-kf5 (5.20.0-1~9.gbp19cd05) UNRELEASED; urgency=medium
+kdnssd-kf5 (5.21.0-1~1.gbp2bc90a) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @2bc90ae59d51fdee967e1afba1840a15c5ebaa0e **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @19cd0532d217349eca864c3e8810b9734715bcb0 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +17,14 @@ kdnssd-kf5 (5.20.0-1~9.gbp19cd05) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:07:29 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:07:23 +0200
 
 kdnssd-kf5 (5.19.0-1) experimental; urgency=medium
 
