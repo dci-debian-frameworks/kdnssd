@@ -1,6 +1,6 @@
-kdnssd-kf5 (5.21.0-1~1.gbp2bc90a) UNRELEASED; urgency=medium
+kdnssd-kf5 (5.21.0-1~2.gbp174e03) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2bc90ae59d51fdee967e1afba1840a15c5ebaa0e **
+  ** SNAPSHOT build @174e03293f22ad2c9d44ea4066d6d3a547dd5e1b **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @19cd0532d217349eca864c3e8810b9734715bcb0 **
@@ -21,10 +21,11 @@ kdnssd-kf5 (5.21.0-1~1.gbp2bc90a) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:07:23 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:04:36 +0200
 
 kdnssd-kf5 (5.19.0-1) experimental; urgency=medium
 
