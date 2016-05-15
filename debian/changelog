@@ -1,3 +1,11 @@
+kdnssd-kf5 (5.22.0-1~1.gbpd4d6b5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d4d6b564f3894c76a2b980ef40b6922bf466afbe **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 13:07:33 +0200
+
 kdnssd-kf5 (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
