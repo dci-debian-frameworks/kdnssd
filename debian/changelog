@@ -1,3 +1,11 @@
+kdnssd-kf5 (5.23.0-1~1.gbpad310a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ad310a14585722028cc7f68e7bbe51b536d52e61 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 01:07:23 +0200
+
 kdnssd-kf5 (5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
