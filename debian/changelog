@@ -1,10 +1,11 @@
-kdnssd-kf5 (5.24.0-1~1.gbp79c1b8) UNRELEASED; urgency=medium
+kdnssd-kf5 (5.25.0-1~1.gbp993120) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @79c1b881b109acfbc8e576e9a6ff90e73b84f618 **
+  ** SNAPSHOT build @993120eb7855d3709d6a18df873c38ea35dcb0fe **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 13:07:21 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 19:07:10 +0200
 
 kdnssd-kf5 (5.23.0-1) unstable; urgency=medium
 
