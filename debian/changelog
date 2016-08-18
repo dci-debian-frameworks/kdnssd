@@ -1,17 +1,12 @@
-kdnssd-kf5 (5.25.0-1~2.gbpfa4d70) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @fa4d7026264f58b354d24e74b4dbc69df4dede68 **
+kdnssd-kf5 (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @993120eb7855d3709d6a18df873c38ea35dcb0fe **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:07:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:18:27 +0200
 
 kdnssd-kf5 (5.23.0-1) unstable; urgency=medium
 
