@@ -28,7 +28,7 @@ Description: development files for kdnssd
  Zeroconf that allows network services.
  .
  Contains development files for kdnssd.
-Breaks: libkf5kdelibs4support-dev (<< 5.36)
+Breaks: libkf5kdelibs4support-dev (<< 5.37)
 
 Package: libkf5dnssd5
 Architecture: any
