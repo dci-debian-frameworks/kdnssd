@@ -55,6 +55,7 @@ Description: Abstraction to system DNSSD features (documentation)
  Zeroconf that allows network services.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5dnssd5
 Architecture: any
