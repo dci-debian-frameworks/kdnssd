@@ -261,16 +261,6 @@ kdnssd-kf5 (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:58 +0100
 
-kdnssd-kf5 (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:00:13 +0100
-
 kdnssd-kf5 (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -333,15 +323,9 @@ kdnssd-kf5 (5.12.0-1) unstable; urgency=medium
 kdnssd-kf5 (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
-  * Vivid backport. 
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:29:00 +0200
-
-kdnssd-kf5 (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * Vivid backport
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:15:31 -0700
 
 kdnssd-kf5 (5.11.0-1) unstable; urgency=medium
 
@@ -450,7 +434,7 @@ kdnssd-kf5 (5.2.0-0ubuntu1) utopic; urgency=medium
 kdnssd-kf5 (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
+  * Update copyright to match licensing to source
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
